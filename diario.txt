@@ -1,0 +1,5 @@
+Hoje comecei meu diário.
+Estou praticando Python.
+Também vou usar GitHub.
+Agora estou aprendendo sobre arquivos.
+E também sobre versionamento.
