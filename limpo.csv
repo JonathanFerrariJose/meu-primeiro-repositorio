@@ -1,0 +1,7 @@
+nome,telefone,data,status
+João Silva,48999991234,2024-05-12,válido
+Maria De Souza,48988881234,2023-01-01,válido
+Carlos Almeida,5548912345678,2022-12-31,inválido
+Ana Paula,123456789,2021-08-15,inválido
+Pedro Henrique,48991234567,2020-07-07,válido
+Lucas,48991234567,inválido,inválido

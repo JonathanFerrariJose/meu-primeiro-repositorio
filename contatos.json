@@ -1,0 +1,22 @@
+[
+  {
+    "nome": "Ana Silva",
+    "telefone": "1111-1111",
+    "cidade": "Florianópolis"
+  },
+  {
+    "nome": "Bruno Costa",
+    "telefone": "2222-2222",
+    "cidade": "São Paulo"
+  },
+  {
+    "nome": "Carla Souza",
+    "telefone": "3333-3333",
+    "cidade": "Florianópolis"
+  },
+  {
+    "nome": "Diego Lima",
+    "telefone": "4444-4444",
+    "cidade": "Rio de Janeiro"
+  }
+]

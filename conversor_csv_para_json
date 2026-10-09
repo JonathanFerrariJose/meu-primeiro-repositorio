@@ -1,0 +1,23 @@
+import csv
+import json
+
+def csv_para_json(arquivo_csv, arquivo_json):
+    dados = []
+    with open(arquivo_csv, newline='', encoding='utf-8') as csvfile:
+        leitor = csv.DictReader(csvfile)
+        for linha in leitor:
+        
+            for chave, valor in linha.items():
+                try:
+                    linha[chave] = float(valor)
+                except ValueError:
+                    pass
+            dados.append(linha)
+
+    with open(arquivo_json, 'w', encoding='utf-8') as jsonfile:
+        json.dump(dados, jsonfile, indent=4, ensure_ascii=False)
+
+if __name__ == "__main__":
+    nome_csv = input("Digite o nome do arquivo CSV: ") or "notas2.csv"
+    csv_para_json(nome_csv, "dados.json")
+    print("Conversão concluída! Arquivo salvo como dados.json")
