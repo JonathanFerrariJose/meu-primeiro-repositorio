@@ -2,7 +2,9 @@ import csv
 from limpeza import limpar_nome, limpar_telefone, limpar_data
 
 def processar_csv(entrada: str, saida: str):
-
+    """
+    Lê o arquivo CSV de entrada, aplica funções de limpeza e grava no arquivo de saída.
+    """
     with open(entrada, newline='', encoding='utf-8') as f_in, \
          open(saida, 'w', newline='', encoding='utf-8') as f_out:
         
